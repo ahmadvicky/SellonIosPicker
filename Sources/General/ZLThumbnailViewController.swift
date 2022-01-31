@@ -701,11 +701,11 @@ class ZLThumbnailViewController: UIViewController {
     }
     
     func scrollToBottom() {
-        guard ZLPhotoConfiguration.default().sortAscending, self.arrDataSources.count > 0 else {
-            return
-        }
-        let index = self.arrDataSources.count - 1 + self.offset
-        self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .centeredVertically, animated: false)
+//        guard ZLPhotoConfiguration.default().sortAscending, self.arrDataSources.count > 0 else {
+//            return
+//        }
+//        let index = self.arrDataSources.count - 1 + self.offset
+//        self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .centeredVertically, animated: false)
     }
     
     func showCamera() {

@@ -221,7 +221,7 @@ public class ZLImagePreviewController: UIViewController {
         self.selectBtn.setImage(getImage("zl_btn_selected"), for: .selected)
         self.selectBtn.zl_enlargeValidTouchArea(inset: 10)
         self.selectBtn.addTarget(self, action: #selector(selectBtnClick), for: .touchUpInside)
-        self.navView.addSubview(self.selectBtn)
+//        self.navView.addSubview(self.selectBtn)
         
         // collection view
         let layout = UICollectionViewFlowLayout()

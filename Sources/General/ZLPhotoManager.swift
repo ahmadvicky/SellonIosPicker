@@ -113,6 +113,8 @@ public class ZLPhotoManager: NSObject {
             count += 1
         }
         
+        models.reverse()
+        
         return models
     }
     
