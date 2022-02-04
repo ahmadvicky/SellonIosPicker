@@ -131,19 +131,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E43EFA0424EFBE6C007067EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E4C911B624E284B30061DA40 = {
 			isa = PBXGroup;
 			children = (
 				E4C911C224E284B30061DA40 /* Sources */,
 				E4C911C124E284B30061DA40 /* Products */,
-				E43EFA0424EFBE6C007067EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
