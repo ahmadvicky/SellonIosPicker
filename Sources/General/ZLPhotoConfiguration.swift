@@ -513,7 +513,8 @@ public class ZLPhotoThemeColorDeploy: NSObject {
     @objc public var previewBtnTitleColor = UIColor.black
     
     /// Preview selection mode, cancel button title color when the selection amount is superior than 0.
-    @objc public var previewBtnHighlightTitleColor = zlRGB(80, 169, 56)
+    @objc public var previewBtnHighlightTitleColor = UIColor.orange
+//    zlRGB(80, 169, 56)
     
     /// A color for navigation bar spinner.
     @objc public var navBarColor = zlRGB(160, 160, 160).withAlphaComponent(0.65)
@@ -564,10 +565,12 @@ public class ZLPhotoThemeColorDeploy: NSObject {
     @objc public var bottomToolViewBtnDisableTitleColorOfPreviewVC = zlRGB(168, 168, 168)
     
     /// The normal state background color of bottom tool view buttons.
-    @objc public var bottomToolViewBtnNormalBgColor = zlRGB(80, 169, 56)
+    @objc public var bottomToolViewBtnNormalBgColor = UIColor.orange
+//    zlRGB(80, 169, 56)
     
     /// The normal state background color of bottom tool view buttons in preview interface.
-    @objc public var bottomToolViewBtnNormalBgColorOfPreviewVC = zlRGB(80, 169, 56)
+    @objc public var bottomToolViewBtnNormalBgColorOfPreviewVC = UIColor.orange
+//    zlRGB(80, 169, 56)
     
     /// The disable state background color of bottom tool view buttons.
     @objc public var bottomToolViewBtnDisableBgColor = zlRGB(50, 50, 50)

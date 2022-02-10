@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'SellonIosPicker'
-  s.version               = '1.0.3'
+  s.version               = '1.0.4'
   s.summary               = 'A lightweight and pure Swift implemented library for select photos from album'
 
   s.description           = <<-DESC
