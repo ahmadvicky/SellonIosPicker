@@ -591,7 +591,8 @@ public class ZLPhotoThemeColorDeploy: NSObject {
     @objc public var invalidMaskColor = UIColor.white.withAlphaComponent(0.5)
     
     /// The background color of selected cell index label.
-    @objc public var indexLabelBgColor = zlRGB(80, 169, 56)
+    @objc public var indexLabelBgColor = UIColor.orange
+//    zlRGB(80, 169, 56)
     
     /// The background color of camera cell inside album.
     @objc public var cameraCellBgColor = UIColor(white: 0.3, alpha: 1)
