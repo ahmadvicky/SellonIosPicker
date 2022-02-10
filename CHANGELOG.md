@@ -2,8 +2,8 @@
 
 -----
 
-## [1.0.1](https://github.com/longitachi/ZLPhotoBrowser/releases/tag/2.2.3) (2017-06-23)
-
+## [1.0.1](https://github.com/ahmadvicky/ZLPhotoBrowser/releases/tag/2.2.3) (2017-06-23)
+https://github.com/ahmadvicky/SellonIosPicker
 ### Add
 * 增加图片编辑裁剪功能.
 
